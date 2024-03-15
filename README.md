@@ -21,7 +21,7 @@ AS A customer,  I WANT to find an experienced, local welder SO THAT I can hire t
 
 ##Acceptance Criteria
 
-GIVEN that I am looking for a local welder WHEN I open the link/website THEN I can see their services WHEN I clock on "Contact Us" I am able to send an email for more information or to set up as appointment
+GIVEN that I am looking for a local welder WHEN I open the link/website THEN I can see their services WHEN I clock on "Contact Us" I am able to send an email for more information or to set up an appointment.
 
 ##Authors and Acknowledgment
 
