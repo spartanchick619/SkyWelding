@@ -647,11 +647,18 @@
 		}
 
 		.copyright {
+      color: #ffffff80;
 			width: 100%;
 			text-align: center;
 			margin: 15px;
       font-size: .7em;
 		}
+
+    .copyright a {
+      color: #ffffff40;
+      font-size: .9em;
+      text-decoration: none;
+    }
 
 		#footer a {
 			color: inherit;
