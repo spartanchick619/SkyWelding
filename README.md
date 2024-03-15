@@ -29,6 +29,7 @@ Rosa Valdez
 Photo by Glenn Hansen on https://unsplash.com
   
 ##License
+MIT 
 
 ##Questions
 
