@@ -24,6 +24,15 @@
 	width: 100%;
 	height: auto;
 }
+
+@media screen and (max-width: 768px) {
+
+  main,
+  nav {
+      flex-direction: column;
+  }
+  
+}
 	a {
 		color: #3ac984;
 		text-decoration: underline;
@@ -875,6 +884,8 @@ dialog > button {
   color: hsl(var(--fc-error-hsl)); 
   border-color: hsl(var(--fc-error-hsl));
   box-shadow: 0px 0px 0px 3px hsla(var(--fc-error-hsl), 12%);
+
+  
 }
 
 /*=====  End of Fields  ======*/
