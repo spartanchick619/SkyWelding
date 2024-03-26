@@ -3,20 +3,6 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-@media screen and (min-width: 900px) {
-  article {
-    padding: 1rem 3rem;
-  }
-}
-
-@supports (display:flex) {
-  @media screen and (min-width: 900px) {
-    article{
-      display: flex;
-    
-    }
-  }
-}
 
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
@@ -891,7 +877,13 @@ dialog > button {
   color: hsl(var(--fc-error-hsl)); 
   border-color: hsl(var(--fc-error-hsl));
   box-shadow: 0px 0px 0px 3px hsla(var(--fc-error-hsl), 12%);
+}
 
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
   
 };
 /*=====  End of Fields  ======*/
